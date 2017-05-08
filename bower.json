@@ -1,0 +1,20 @@
+{
+  "name": "markup-boilerplate",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Dmytro Slipak <dslipak@corevalue.net>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "svg4everybody": "^2.1.8"
+  }
+}
