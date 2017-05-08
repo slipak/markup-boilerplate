@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    @@include('./includes/_head.html')
+</head>
+<body>
+
+    <div class="page-wrapper">
+        @@include('./includes/_header.html')
+        <div class="page-content">
+            <section class="section-wrapper">
+                <div class="container-fluid">
+                    <h1>section-wrapper title</h1>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-3"><div class="ui-preview-col"><h2>.col-xs-12.col-sm-3</h2></div></div>
+                        <div class="col-xs-12 col-sm-3"><div class="ui-preview-col"><h2>.col-xs-12.col-sm-3</h2></div></div>
+                        <div class="col-xs-12 col-sm-3"><div class="ui-preview-col"><h2>.col-xs-12.col-sm-3</h2></div></div>
+                        <div class="col-xs-12 col-sm-3"><div class="ui-preview-col"><h2>.col-xs-12.col-sm-3</h2></div></div>
+                    </div>
+                    <h2>Using svg example</h2>
+
+                    <svg width="50" height="50">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="./../static/images/icons.svg#no-smoking"></use>
+                    </svg>
+
+                    <svg width="100" height="100">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="./../static/images/icons.svg#heavy-metal"></use>
+                    </svg>
+                </div>
+            </section>
+        </div>
+        @@include('./includes/_footer.html')
+    </div>
+
+    @@include('./includes/_scripts.html')
+</body>
+</html>

@@ -1,2 +1,7 @@
-svg4everybody();
-console.log('Hello from common.js');
+$(function() {
+    /* crossbrowser support for svg
+    * ----------------------------------------------------------------------------------------------------------------*/
+    svg4everybody();
+
+
+});

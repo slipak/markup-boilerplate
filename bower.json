@@ -15,6 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "svg4everybody": "^2.1.8"
+    "svg4everybody": "^2.1.8",
+    "jquery": "2.2.4"
   }
 }

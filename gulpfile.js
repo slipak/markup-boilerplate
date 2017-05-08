@@ -58,6 +58,9 @@ gulp.task('build:images', function () {
 gulp.task('build:move', function () {
     gulp.src('./src/static/fonts/**/*')
         .pipe(gulp.dest('./dist/static/fonts'));
+
+    gulp.src('./src/static/js/common.js')
+        .pipe(gulp.dest('./dist/static/js'));
 });
 
 
